@@ -1,0 +1,248 @@
+<!DOCTYPE html><html class="light" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><title>SmileCare</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-secondary-container": "#006f67", "on-tertiary-fixed": "#001f25", "surface-container-lowest": "#ffffff", "primary": "#006a65", "tertiary": "#3e646d", "error-container": "#ffdad6", "primary-fixed": "#80f6ec", "error": "#ba1a1a", "on-secondary": "#ffffff", "on-error-container": "#93000a", "secondary-fixed": "#7bf6ea", "tertiary-container": "#779da7", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#00504c", "inverse-surface": "#193346", "on-primary-container": "#003633", "surface-bright": "#f7f9ff", "primary-fixed-dim": "#61d9d0", "on-secondary-fixed-variant": "#00504a", "surface-container-highest": "#cce6ff", "on-primary-fixed": "#00201e", "on-surface-variant": "#3d4948", "on-surface": "#011e30", "surface-container": "#e1efff", "on-background": "#011e30", "secondary-container": "#78f4e7", "on-tertiary-fixed-variant": "#254c55", "surface-container-low": "#ecf4ff", "background": "#f7f9ff", "secondary": "#006a63", "surface-tint": "#006a65", "inverse-on-surface": "#e7f2ff", "outline": "#6d7a78", "surface-dim": "#c3ddf6", "tertiary-fixed": "#c1e9f4", "surface-variant": "#cce6ff", "inverse-primary": "#61d9d0", "primary-container": "#1fa8a0", "on-secondary-fixed": "#00201d", "tertiary-fixed-dim": "#a6cdd7", "surface": "#f7f9ff", "on-tertiary-container": "#08343c", "on-primary": "#ffffff", "secondary-fixed-dim": "#5cdace", "outline-variant": "#bcc9c7", "on-error": "#ffffff", "surface-container-high": "#d6ebff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "2rem", "margin": "1.25rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem" }, fontFamily: { "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"] }, fontSize: { "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }], "body-sm": ["12px", { lineHeight: "18px", fontWeight: "400" }], "body-lg": ["16px", { lineHeight: "24px", fontWeight: "400" }], "headline-sm": ["18px", { lineHeight: "24px", fontWeight: "600" }], "title-md": ["16px", { lineHeight: "22px", fontWeight: "600" }], "headline-lg": ["26px", { lineHeight: "34px", fontWeight: "700" }], "label-md": ["12px", { lineHeight: "16px", fontWeight: "600" }], "label-lg": ["14px", { lineHeight: "20px", fontWeight: "600" }], "headline-md": ["20px", { lineHeight: "28px", fontWeight: "700" }], "display-lg": ["32px", { lineHeight: "40px", fontWeight: "800" }], "label-sm": ["11px", { lineHeight: "14px", fontWeight: "500" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100vh;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 500,'GRAD' 0,'opsz' 24;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen relative selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/75 backdrop-blur-xl shadow-[0_1px_12px_rgba(31,168,160,0.06)]"><div class="h-6 px-margin flex items-center justify-between text-on-surface text-[12px] font-semibold tracking-tight"><span class="select-none">9:41</span><div class="flex items-center gap-1.5 select-none"><span class="material-symbols-outlined text-[15px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[15px]">wifi</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="SmileCare Logo" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1VPiRxsuxYYij1HbIaw2MCUZ0QOhk58zzsdlwfLot7Hf4ObYzy5ANlhzOPjp4hpLhKag0w3erulZQlAEeTHL9jIuDln5bSCQE1mAp1xpY4gCIQQuPtuJUDveh_chYUhXv06q2RIK8Nu3TJwarZkKQEqkG4oVz_h9Gu59D2FV2opeO4YmKoGOeCG-2z3RGX-ZNY9at2sMIsADh705Cno6SCRnAFPLkRuS8j0JebrAvkV1Sw73rooKvxwAKE5"><div class="flex flex-col min-w-0"><div class="flex items-baseline gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary tracking-tight truncate leading-tight">Renaissance Child Dental Centre</span><span class="text-tertiary font-headline-sm text-[12px] opacity-40 font-light">/</span><span class="font-title-md text-title-md text-on-surface truncate leading-tight">Services</span></div><span class="font-label-sm text-label-sm text-tertiary truncate leading-tight">Healthy Smile, Happy Life</span></div></div><div class="flex items-center gap-space-xs shrink-0"><button aria-label="Notifications" class="relative w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container/60 transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary-container ring-2 ring-surface"></span></button><div class="w-11 h-11 flex items-center justify-center"><div class="p-0.5 rounded-full ring-2 ring-primary-container/30"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHzLWKAbtJOQXTooSQOL0xL21LaLo5SW2SXPwgS2XaJGTDSfKMJEsWtIqoH0FPelbdRFT5ulmuZuC4E1LOT1ICQXpmyHLPyRyjZCHqp0ZYLiiVvA0e9g85xAWPBITff5m45MmcNM3_b6faLwv8gk7im2dJNeJQuaQ8fEOKeq9o-Rj5sfHmxG2_gPoeKa4ZSr9QXC_9dZCE2oBAzOPTNZ-t95cdocw9nPThfGkTg39_qMlhr7XtNt_jzQ"></div></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-[88px] pb-[92px] px-margin bg-surface"><div class="flex flex-col w-full pb-8">
+<div class="flex flex-col items-center text-center mt-2 mb-6">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/40 text-on-secondary-container mb-3 shadow-[0_2px_8px_rgba(31,168,160,0.12)]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Why Patients Trust Us</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-2">
+      Excellence in Every Smile
+    </h2>
+<p class="font-body-md text-body-md text-tertiary max-w-[320px] mx-auto">
+      Pioneering painless dentistry with modern tech, certified specialists, and complete care transparency.
+    </p>
+</div>
+<div class="grid grid-cols-2 gap-3 mb-6">
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">workspace_premium</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">Top Specialists</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Board-certified dentists with 12+ years experience.</p>
+</div>
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">view_in_ar</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">3D Oral Tech</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Precision 3D scanners &amp; AI-assisted diagnostics.</p>
+</div>
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">spa</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">100% Painless</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Calming sedation and soft-tissue laser dentistry.</p>
+</div>
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">sanitizer</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">Hospital Grade</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Strict 7-step sterilization and sterile suites.</p>
+</div>
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">receipt_long</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">Clear Pricing</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Zero hidden fees, transparent quotes, 0% EMI.</p>
+</div>
+<div class="flex flex-col p-3.5 rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_20px_rgba(31,168,160,0.06)] relative overflow-hidden group">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-primary mb-3 shadow-[0_4px_12px_rgba(31,168,160,0.18)]">
+<span class="material-symbols-outlined text-[22px]">emergency</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-snug mb-1">24/7 On-Call</h3>
+<p class="font-body-sm text-body-sm text-tertiary">Emergency dental response team anytime you need.</p>
+</div>
+</div>
+<div class="flex flex-col p-4 rounded-3xl bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_12px_28px_rgba(31,168,160,0.09)] mb-6">
+<div class="flex items-center justify-between mb-3">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Clinical Results</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Whitening &amp; Alignment</h3>
+</div>
+<div class="flex items-center gap-1 bg-secondary-container/50 px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-secondary-container">5.0</span>
+</div>
+</div>
+<div class="relative w-full h-48 rounded-2xl overflow-hidden mb-3 select-none" id="beforeAfterContainer">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Close up high resolution photo of natural bright white aligned clean healthy teeth smiling after professional dental treatment studio lighting soft teal ambiance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJLL53Vt43l_EqeYQyfzfgUf_jw7AVz1NCTeRjpyR0WUwxy50ir5Sj1y-HoCtLYKYyxZMmQcwPsqQhawMF0lu_TjmgyzTNuUjsPv-fg1EzcawY7lH5ARnqp4nPOWfC3l_zTTxOZR-Dm2DpLawrlV-XLWGhhMwAjUzyv8sUdUAaVq4p7D1v5pcBC8RDsiq6YhuRUWKd1NVFt36ZlYJsoWoqOgtlPqcQrYRQk5cUsaguy0NvVH8QVpjTNw">
+<div class="absolute inset-0 w-1/2 overflow-hidden" id="beforeClip">
+<img class="w-[340px] h-48 max-w-none object-cover" data-alt="Close up realistic clinical dental photo of slightly misaligned slightly stained natural teeth prior to treatment studio lighting medical neutral photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmqy3ZtJfBMRnv9cd2jhvcHLq8p16jTwplDpIJLgYiysdnKOM6K10P3Zpg2_owyjRaBoQJ9QCw48P5bZSMdrE2Bj2W301D76z6ZdkBAE_iARTLfi-lqda5rPOmC5wC6lu7hFrpDy1YxpymSAm7crtvLM9K2tduuxMYcn5F9xZBuSKnvuNCpTcoL_24J7nZROH4UYmCoafFt62T9fmQqCh6dxTogrrNFIRpCMFNeHXkwS53ePQiMRLJqw">
+</div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-full bg-inverse-surface/60 backdrop-blur-md text-inverse-on-surface font-label-sm text-label-sm">
+        Before: Day 0
+      </div>
+<div class="absolute top-2.5 right-2.5 px-2.5 py-1 rounded-full bg-primary/80 backdrop-blur-md text-on-primary font-label-sm text-label-sm">
+        After: Day 28
+      </div>
+<div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-0.5 bg-surface-container-lowest shadow-[0_0_8px_rgba(0,0,0,0.4)] pointer-events-none flex items-center justify-center">
+<div class="w-7 h-7 rounded-full bg-surface-container-lowest shadow-md flex items-center justify-center text-primary text-[14px]">
+<span class="material-symbols-outlined text-[16px]">code</span>
+</div>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3 rounded-xl bg-surface-container-low/70">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[18px]">format_quote</span>
+</div>
+<div class="flex flex-col min-w-0">
+<p class="font-body-sm text-body-sm text-on-surface italic line-clamp-2">
+          “Completely painless, and my confidence is through the roof! The 3D scan made it so reassuring.”
+        </p>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-1">Sarah M. — Clear Aligners &amp; Laser Whitening</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col p-4 rounded-3xl bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_12px_28px_rgba(31,168,160,0.08)] mb-6">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-[22px]">compare</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Renaissance Child Dental vs Regular Clinics</h3>
+<p class="font-body-sm text-body-sm text-tertiary">See how our patient-first approach compares</p>
+</div>
+</div>
+<div class="w-full flex flex-col gap-2.5">
+<div class="grid grid-cols-12 pb-1.5 px-2 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wide">
+<span class="col-span-6">Treatment Standard</span>
+<span class="col-span-3 text-center text-primary font-bold">Renaissance</span>
+<span class="col-span-3 text-center text-tertiary">Others</span>
+</div>
+<div class="grid grid-cols-12 items-center p-2.5 rounded-xl bg-surface-container-low/60">
+<div class="col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">3D Digital Preview</span>
+<span class="font-body-sm text-[11px] text-tertiary leading-tight">Interactive simulation</span>
+</div>
+<div class="col-span-3 flex justify-center">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_2px_8px_rgba(31,168,160,0.35)]">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="col-span-3 flex justify-center text-outline">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</div>
+</div>
+<div class="grid grid-cols-12 items-center p-2.5 rounded-xl bg-surface-container-low/60">
+<div class="col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Painless Laser Care</span>
+<span class="font-body-sm text-[11px] text-tertiary leading-tight">No drills for soft tissue</span>
+</div>
+<div class="col-span-3 flex justify-center">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_2px_8px_rgba(31,168,160,0.35)]">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="col-span-3 flex justify-center text-outline">
+<span class="font-label-sm text-label-sm text-tertiary">+$120 fee</span>
+</div>
+</div>
+<div class="grid grid-cols-12 items-center p-2.5 rounded-xl bg-surface-container-low/60">
+<div class="col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">0% EMI &amp; Transparent Cost</span>
+<span class="font-body-sm text-[11px] text-tertiary leading-tight">Guaranteed fixed quote</span>
+</div>
+<div class="col-span-3 flex justify-center">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_2px_8px_rgba(31,168,160,0.35)]">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="col-span-3 flex justify-center text-outline">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</div>
+</div>
+<div class="grid grid-cols-12 items-center p-2.5 rounded-xl bg-surface-container-low/60">
+<div class="col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Care Warranty</span>
+<span class="font-body-sm text-[11px] text-tertiary leading-tight">Restorations guaranteed</span>
+</div>
+<div class="col-span-3 flex justify-center text-center">
+<span class="font-label-sm text-label-sm text-primary font-bold">Up to 5 Yrs</span>
+</div>
+<div class="col-span-3 flex justify-center text-outline">
+<span class="font-label-sm text-label-sm text-tertiary">30 Days</span>
+</div>
+</div>
+<div class="grid grid-cols-12 items-center p-2.5 rounded-xl bg-surface-container-low/60">
+<div class="col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Same-Day Emergency</span>
+<span class="font-body-sm text-[11px] text-tertiary leading-tight">Immediate triage slots</span>
+</div>
+<div class="col-span-3 flex justify-center">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-[0_2px_8px_rgba(31,168,160,0.35)]">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="col-span-3 flex justify-center text-outline">
+<span class="font-label-sm text-label-sm text-tertiary text-center">Wait 48h</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 rounded-3xl bg-gradient-to-br from-secondary-container/40 via-surface-container-low to-primary-fixed/20 shadow-[0_8px_24px_rgba(31,168,160,0.06)] mb-6">
+<div class="flex items-center gap-3 mb-2.5">
+<div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Flexible Insurance &amp; 0% EMI</h4>
+<span class="font-body-sm text-body-sm text-tertiary">Direct billing with tier-1 insurance providers</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1 flex-wrap">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">Aetna Dental</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">Cigna</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">MetLife</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm font-semibold shadow-sm">Delta Dental</span>
+<span class="px-2.5 py-1 rounded-lg bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold shadow-sm">0% Interest 12 Mo.</span>
+</div>
+</div>
+<div class="sticky bottom-1 z-30 w-full p-3 rounded-2xl bg-surface-container-lowest/90 backdrop-blur-2xl shadow-[0_8px_30px_rgba(31,168,160,0.18)] flex items-center justify-between gap-3">
+<div class="flex flex-col pl-1">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Zero Risk</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold leading-tight">First Visit Free</span>
+</div>
+<button class="flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-primary-container to-secondary text-on-primary font-label-lg text-label-lg shadow-[0_8px_20px_rgba(31,168,160,0.38)] active:scale-95 transition-transform shrink-0">
+<span class="">Book Free Visit</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<script>
+  (function() {
+    const container = document.getElementById('beforeAfterContainer');
+    const clip = document.getElementById('beforeClip');
+    if (!container || !clip) return;
+
+    let isDown = false;
+    const updatePosition = (clientX) => {
+      const rect = container.getBoundingClientRect();
+      const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
+      const percentage = (x / rect.width) * 100;
+      clip.style.width = percentage + '%';
+    };
+
+    container.addEventListener('pointerdown', (e) => {
+      isDown = true;
+      updatePosition(e.clientX);
+    });
+
+    window.addEventListener('pointermove', (e) => {
+      if (!isDown) return;
+      updatePosition(e.clientX);
+    });
+
+    window.addEventListener('pointerup', () => {
+      isDown = false;
+    });
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-2xl shadow-[0_-4px_24px_rgba(31,168,160,0.08)]" data-active-classes="[&amp;_.active-pill]:opacity-100 [&amp;_.nav-icon]:text-white [&amp;_.nav-label]:text-primary [&amp;_.nav-label]:font-label-md"><div class="h-[68px] px-margin flex items-center justify-between"><a class="group relative flex flex-col items-center justify-center flex-1 h-full py-1 text-center min-w-[56px]" data-path="home" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full mb-0.5"><div class="active-pill absolute inset-0 rounded-full bg-gradient-to-r from-primary-container to-secondary shadow-[0_4px_14px_rgba(31,168,160,0.35)] opacity-0 transition-all duration-300"></div><span class="material-symbols-outlined nav-icon relative z-10 text-[22px] text-tertiary group-hover:text-primary transition-colors">home</span></div><span class="nav-label font-label-sm text-label-sm text-tertiary group-hover:text-primary transition-colors">Home</span></a><a class="group relative flex flex-col items-center justify-center flex-1 h-full py-1 text-center min-w-[56px]" data-path="services" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full mb-0.5"><div class="active-pill absolute inset-0 rounded-full bg-gradient-to-r from-primary-container to-secondary shadow-[0_4px_14px_rgba(31,168,160,0.35)] opacity-0 transition-all duration-300"></div><span class="material-symbols-outlined nav-icon relative z-10 text-[22px] text-tertiary group-hover:text-primary transition-colors">medical_services</span></div><span class="nav-label font-label-sm text-label-sm text-tertiary group-hover:text-primary transition-colors">Services</span></a><a class="group relative flex flex-col items-center justify-center flex-1 h-full py-1 text-center min-w-[56px]" data-path="messages" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full mb-0.5"><div class="active-pill absolute inset-0 rounded-full bg-gradient-to-r from-primary-container to-secondary shadow-[0_4px_14px_rgba(31,168,160,0.35)] opacity-0 transition-all duration-300"></div><span class="material-symbols-outlined nav-icon relative z-10 text-[22px] text-tertiary group-hover:text-primary transition-colors">chat_bubble</span></div><span class="nav-label font-label-sm text-label-sm text-tertiary group-hover:text-primary transition-colors">Messages</span></a><a class="group relative flex flex-col items-center justify-center flex-1 h-full py-1 text-center min-w-[56px]" data-path="offers" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full mb-0.5"><div class="active-pill absolute inset-0 rounded-full bg-gradient-to-r from-primary-container to-secondary shadow-[0_4px_14px_rgba(31,168,160,0.35)] opacity-0 transition-all duration-300"></div><span class="material-symbols-outlined nav-icon relative z-10 text-[22px] text-tertiary group-hover:text-primary transition-colors">local_offer</span></div><span class="nav-label font-label-sm text-label-sm text-tertiary group-hover:text-primary transition-colors">Offers</span></a><a class="group relative flex flex-col items-center justify-center flex-1 h-full py-1 text-center min-w-[56px]" data-path="profile" href="#"><div class="relative flex items-center justify-center w-12 h-8 rounded-full mb-0.5"><div class="active-pill absolute inset-0 rounded-full bg-gradient-to-r from-primary-container to-secondary shadow-[0_4px_14px_rgba(31,168,160,0.35)] opacity-0 transition-all duration-300"></div><span class="material-symbols-outlined nav-icon relative z-10 text-[22px] text-tertiary group-hover:text-primary transition-colors">person</span></div><span class="nav-label font-label-sm text-label-sm text-tertiary group-hover:text-primary transition-colors">Profile</span></a></div></nav>
+
+</body></html>

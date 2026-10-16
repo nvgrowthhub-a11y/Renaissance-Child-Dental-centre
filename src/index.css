@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    color: #011e30;
+    background-color: #f7f9ff;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Safe area helpers */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+/* Material Symbols Outlined helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Hide scrollbars for clean carousel scrollers while allowing scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Glassmorphism Panels */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 30px rgba(31, 168, 160, 0.08), 0 1px 3px rgba(15, 42, 61, 0.04);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-card-interactive {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(31, 168, 160, 0.14), 0 2px 6px rgba(15, 42, 61, 0.05);
+  border-color: rgba(31, 168, 160, 0.25);
+}
+
+/* Gradient buttons */
+.btn-primary-gradient {
+  background: linear-gradient(135deg, #2BB5AA 0%, #1FA8A0 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 22px rgba(31, 168, 160, 0.35);
+  transition: all 0.2s ease;
+}
+.btn-primary-gradient:hover {
+  box-shadow: 0 10px 26px rgba(31, 168, 160, 0.45);
+  filter: brightness(1.03);
+}
+.btn-primary-gradient:active {
+  transform: scale(0.98);
+}
